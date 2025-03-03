@@ -1,0 +1,12 @@
+[1mdiff --git a/src/components/option5.vue b/src/components/option5.vue[m
+[1mindex 5ca0e5b..c24868a 100644[m
+[1m--- a/src/components/option5.vue[m
+[1m+++ b/src/components/option5.vue[m
+[36m@@ -7,6 +7,7 @@[m
+ <button @click="transmitir">Resgatar Pressente</button>[m
+ <p>Contagem: {{ estado.count }}</p>[m
+ <button @click="aumentar">+1</button>[m
+[32m+[m[32m<h3>i</h3>[m
+ </template>[m
+ <script setup>[m
+ import { defineProps,ref,defineEmits,reactive } from 'vue';[m

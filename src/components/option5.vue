@@ -1,12 +1,13 @@
 <template>
 <h1>Teste de Emissão</h1>
-<p>modular primário: {{ item }}</p>
+<p>modular primário:  {{ item }}</p>
 <button @click="comprado"> Comprar</button>
 <h1>btn2</h1>
 <input type="text" name="" id="promotionCode">
 <button @click="transmitir">Resgatar Pressente</button>
 <p>Contagem: {{ estado.count }}</p>
 <button @click="aumentar">+1</button>
+<h3>i</h3>
 </template>
 <script setup>
 import { defineProps,ref,defineEmits,reactive } from 'vue';
