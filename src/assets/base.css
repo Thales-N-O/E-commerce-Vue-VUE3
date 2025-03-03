@@ -1,0 +1,74 @@
+:root{
+  
+  /* Fundo//Body */
+  
+  --fundo-body:
+
+   linear-gradient(135deg, #a1a1a155 25%, transparent 100%) -40px 0/ 80px 80px, linear-gradient(225deg, #a1a1a155 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #a1a1a155 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #a1a1a155 25%, #e5e5f7 25%) 0px 0/ 80px 80px;
+   
+   ;
+  /* Fundo//Body */
+  /* Paleta de cores */
+  --roxo-filtrado:rgb(73, 61, 158);
+  --roxo-claro:rgb(178, 165, 255);
+  --lilas-suave:rgb(218, 210, 255);
+  --amarelo:rgb(255, 242, 175);
+  --amarelo-relampago:hsl(50, 100%, 50%);
+  --amarelo-suave:rgb(244, 248, 211);
+  --rosa-claro:rgb(247, 207, 216);
+  --turques-suave:rgb(166, 241, 224);
+  --turques-marinho:rgb(115, 199, 199);
+  --marrom-argila:rgb(93, 65, 77);
+  --limo-marinho:rgb(44, 57, 48);
+  --verde-musgo:rgb(104, 246, 85);
+  --semi-black:rgba(46, 46, 46, 0.753);
+  /* Fontes */
+  --Titulos:Bebas Neue;
+  --paragrafos:Dosis;
+  --citação:Atkinson Hyperlegible Mono;
+  /* Debug */
+  --debug:red 2px solid;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+#app{
+display:grid;
+place-items: center;
+}
+
+body {
+/* position-anchor */
+  display: grid;
+  place-items: center;
+/* position-anchor */
+
+/* ---------------------------------------- */
+/* height-anchor//minimal */
+  min-height: 10vh;
+/* height-anchor//minimal */
+
+/* ---------------------------------------- */
+
+/* background/&&/Coloração */
+background:var(--fundo-body);
+background-size:50%;
+background-blend-mode: luminosity;
+/* background/&&/Coloração */
+
+/* ---------------------------------------- */
+  transition:color 0.5s, background-color 0.5s;
+/* ---------------------------------------- */
+
+/* costumização//fontes */
+  line-height: 1.6;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+/* costumização//fontes */
+
+/* ---------------------------------------- */
+  
+}
